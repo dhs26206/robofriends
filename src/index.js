@@ -1,13 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import Card from'./Card'
 import reportWebVitals from './reportWebVitals';
-
+// import Search from './Search';
+import App from './Containers/App';
+// import 'tachyons';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// const toor =ReactDOM.createRoot(document.getElementById('toor'));
+
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Search/>
+    <Card name={"Dhruv"} />
+    <Card name={"Manpreet"} />
+    <Card name={"Ayush"} />
+    <Card name={"Pranay"} />
+    <Card name={"Gaurav"} />
+    <Card name={"Jatin"} />
+    <Card name={"Rajesh"} />
+    <Card name={"Lakshman"} />
+    <Card name={"Dayanand"} /> */}
+    <App/>
   </React.StrictMode>
 );
 
